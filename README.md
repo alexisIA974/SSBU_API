@@ -1,4 +1,4 @@
-# 🎮 SSBU Characters API
+# 🎮 Super Smash Bros. Ultimate Api
 
 An unofficial REST API providing structured data for **Super Smash Bros. Ultimate** characters.
 
@@ -109,24 +109,6 @@ Each character contains competitive information including:
 - FastAPI
 - Pydantic
 - JSON
-
----
-
-## 📖 Documentation
-
-FastAPI automatically generates an OpenAPI specification.
-
-Swagger UI:
-
-```
-/docs
-```
-
-ReDoc:
-
-```
-/redoc
-```
 
 ---
 
