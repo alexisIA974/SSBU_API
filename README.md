@@ -10,16 +10,16 @@ It includes competitive information such as archetypes, tier rankings, matchup t
 
 ---
 
-# 📦 Installation
+## 📦 Installation
 
-## Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/alexisIA974/SSBU_API.git
 cd SSBU_API
 ```
 
-## Install dependencies
+### Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -31,7 +31,7 @@ or
 pip install fastapi uvicorn
 ```
 
-## Run the API
+### Run the API
 
 ```bash
 uvicorn main:app --reload
@@ -51,7 +51,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# 🚀 Usage
+## 🚀 Usage
 
 Below are some of the available endpoints.
 
@@ -85,7 +85,7 @@ Response:
 
 ---
 
-# 📂 Data
+## 📂 Data
 
 Each character contains competitive information including:
 
@@ -103,7 +103,7 @@ Each character contains competitive information including:
 
 ---
 
-# 💻 Built With
+## 💻 Built With
 
 - Python
 - FastAPI
@@ -112,7 +112,7 @@ Each character contains competitive information including:
 
 ---
 
-# 📖 Documentation
+## 📖 Documentation
 
 FastAPI automatically generates an OpenAPI specification.
 
@@ -130,7 +130,7 @@ ReDoc:
 
 ---
 
-# 📌 Roadmap
+## 📌 Roadmap
 
 Planned improvements include:
 
@@ -142,7 +142,7 @@ Planned improvements include:
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
 Suggestions and improvements are always welcome.
 
@@ -150,6 +150,6 @@ Feel free to open an issue or submit a pull request.
 
 ---
 
-# 📄 License
+## 📄 License
 
 This project is released under the MIT License.
