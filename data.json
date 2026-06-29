@@ -1,0 +1,3356 @@
+[
+  {
+    "fighter_number": "1",
+    "name": "Mario",
+    "archetype": "All-Rounder",
+    "tier": "A",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Super Jump Punch", "F.L.U.D.D.", "Cape"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fireball", "Bair", "D-tilt"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["D-throw -> Fair", "Up-air ladders -> Up-B"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Strong",
+      "out_of_shield": "Excellent",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Yoshi's Story"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Sonic", "Sephiroth", "Marth"]
+    }
+  },
+  {
+    "fighter_number": "2",
+    "name": "Donkey Kong",
+    "archetype": "Grappler",
+    "tier": "B+",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Giant Punch", "Cargo Throw", "Spinning Kong"],
+    "attributes": {
+      "weight_class": "Super Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Bair", "Cargo Grab", "F-tilt"],
+      "out_of_shield_options": ["Up-B", "Grab"],
+      "kill_confirms": ["Cargo Up-throw -> Up-air", "Ding Dong"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Average",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Bowser Jr.", "Little Mac"],
+      "weak_against": ["Pikachu", "Samus", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "3",
+    "name": "Link",
+    "archetype": "Swordfighter / Zoner",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Remote Bomb", "Boomerang", "Spin Attack"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Boomerang", "Bomb"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Bomb -> Fair", "Nair -> Up-smash"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Final Destination"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["King K. Rool", "Bowser", "Ganondorf"],
+      "weak_against": ["Pikachu", "Fox", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "4",
+    "name": "Samus",
+    "archetype": "Zoner",
+    "tier": "A+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Charge Shot", "Missile", "Screw Attack"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Charge Shot", "Zair", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Charge Shot -> Dash Attack", "D-throw -> Fair"]
+    },
+    "advantage_state": {
+      "juggling": "Good",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Average",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Hollow Bastion"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Belmonts", "Incineroar", "Ridley"],
+      "weak_against": ["Fox", "Pikachu", "Olimar"]
+    }
+  },
+  {
+    "fighter_number": "5",
+    "name": "Dark Samus",
+    "archetype": "Zoner",
+    "tier": "A",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Charge Shot", "Missile", "Screw Attack"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Charge Shot", "Zair", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Charge Shot -> Fair", "D-throw -> Fair"]
+    },
+    "advantage_state": {
+      "juggling": "Good",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Average",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ridley", "Bowser", "Ganondorf"],
+      "weak_against": ["Fox", "Pikachu", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "6",
+    "name": "Yoshi",
+    "archetype": "Rushdown / Air Fighter",
+    "tier": "A-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Egg Toss", "Double Jump Armor", "Egg Roll"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Fast",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Egg Toss", "Dair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Up-air -> Up-air", "Dair shield poke -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Yoshi's Story", "Battlefield"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Mario", "Donkey Kong", "Bowser"],
+      "weak_against": ["Pikachu", "Fox", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "7",
+    "name": "Kirby",
+    "archetype": "Bait & Punish",
+    "tier": "B",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Inhale", "Hammer", "Final Cutter"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Slow",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Dtilt", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Dtilt trip -> Fsmash", "Up-tilt ladders"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Average",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Battlefield"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Samus", "Sonic", "Cloud"]
+    }
+  },
+  {
+    "fighter_number": "8",
+    "name": "Fox",
+    "archetype": "Rushdown",
+    "tier": "A+",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Blaster", "Fox Illusion", "Fire Fox"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Excellent",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Dash Attack", "Up-tilt"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Nair -> Up-smash", "Dash attack -> Fair"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Average"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Excellent",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Town & City"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Samus", "Sephiroth", "Olimar"],
+      "weak_against": ["Pikachu", "Mario", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "9",
+    "name": "Pikachu",
+    "archetype": "Rushdown",
+    "tier": "S",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Thunder Jolt", "Quick Attack", "Thunder"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Fast",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Thunder Jolt", "Nair", "Bair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Nair loops -> Dsmash", "Up-throw -> Thunder"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Captain Falcon", "Ganondorf", "King K. Rool"],
+      "weak_against": ["Game & Watch", "Ness", "Olimar"]
+    }
+  },
+  {
+    "fighter_number": "10",
+    "name": "Luigi",
+    "archetype": "Grappler / Punish",
+    "tier": "A-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Green Missile", "Super Jump Punch", "Fireball"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Poor"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Zair", "Fireball", "Dtilt"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["0-to-death grab combo", "Dthrow -> Up-B"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Excellent",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Battlefield"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Samus", "Sonic", "Sephiroth"]
+    }
+  },
+  {
+    "fighter_number": "11",
+    "name": "Ness",
+    "archetype": "Zoner / Trap",
+    "tier": "A-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["PK Fire", "PK Thunder", "Back Throw"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["PK Fire", "Fair", "Nair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["PK Fire -> Fair", "Back Throw"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Yoshi's Story"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Ganondorf", "Bowser"],
+      "weak_against": ["Cloud", "Sonic", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "12",
+    "name": "Captain Falcon",
+    "archetype": "Rushdown / Brawler",
+    "tier": "A",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Falcon Kick", "Raptor Boost", "Falcon Dive"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Excellent",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Dash Grab", "Up-air"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Nair 1 -> Knee", "Dthrow -> Up-air"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Town & City"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Bowser", "Ganondorf"],
+      "weak_against": ["Pikachu", "Samus", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "13",
+    "name": "Jigglypuff",
+    "archetype": "Air Fighter / Bait & Punish",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Rest", "Pound", "Rollout"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Slow",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Bair", "Pound"],
+      "out_of_shield_options": ["Nair", "Rest"],
+      "kill_confirms": ["Landing Nair -> Rest", "Sing setup -> Rest"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Average",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Yoshi's Story"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Little Mac", "Donkey Kong"],
+      "weak_against": ["Cloud", "Samus", "Swordfighters"]
+    }
+  },
+  {
+    "fighter_number": "14",
+    "name": "Peach",
+    "archetype": "Technical Rushdown",
+    "tier": "S",
+    "difficulty": "Very Hard",
+    "secondary_required": false,
+    "signature_moves": ["Turnip", "Float", "Parasol"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Float Cancel Fair", "Turnip", "Nair"],
+      "out_of_shield_options": ["Nair", "Float aerial"],
+      "kill_confirms": ["Turnip -> Fair", "Float Nair dragdown -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ryu"],
+      "weak_against": ["Sonic", "Mr. Game & Watch", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "15",
+    "name": "Daisy",
+    "archetype": "Technical Rushdown",
+    "tier": "S-",
+    "difficulty": "Very Hard",
+    "secondary_required": false,
+    "signature_moves": ["Turnip", "Float", "Parasol"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Float Cancel Fair", "Turnip", "Nair"],
+      "out_of_shield_options": ["Nair", "Float aerial"],
+      "kill_confirms": ["Turnip -> Fair", "Nair dragdown -> Upsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Incineroar"],
+      "weak_against": ["Sonic", "Game & Watch", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "16",
+    "name": "Bowser",
+    "archetype": "Heavyweight / Brawler",
+    "tier": "A-",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Flying Slam", "Whirling Fortress", "Flame Breath"],
+    "attributes": {
+      "weight_class": "Super Heavyweight",
+      "run_speed": "Fast",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Flame Breath", "Up-B"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Side-B", "Fair edgeguard"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Excellent",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Smashville", "Town & City"],
+      "worst_stages": ["Final Destination", "Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Little Mac", "Incineroar"],
+      "weak_against": ["Pikachu", "Samus", "Min Min"]
+    }
+  },
+  {
+    "fighter_number": "17",
+    "name": "Ice Climbers",
+    "archetype": "Desync / Grappler",
+    "tier": "B",
+    "difficulty": "Very Hard",
+    "secondary_required": true,
+    "signature_moves": ["Squall Hammer", "Belay", "Ice Shot"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Blizzard", "Desync grab", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Desync combos", "Grab -> Fair"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Weak",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Smashville"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Cloud", "Sonic", "Sephiroth"]
+    }
+  },
+  {
+    "fighter_number": "18",
+    "name": "Sheik",
+    "archetype": "Rushdown",
+    "tier": "A",
+    "difficulty": "Very Hard",
+    "secondary_required": false,
+    "signature_moves": ["Needles", "Bouncing Fish", "Vanish"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Excellent",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Needles", "Nair"],
+      "out_of_shield_options": ["Nair", "Vanish"],
+      "kill_confirms": ["Needles -> Bouncing Fish", "Fair dragdown -> Upsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Town & City", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Ryu", "Snake"],
+      "weak_against": ["Cloud", "Sonic", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "19",
+    "name": "Zelda",
+    "archetype": "Trap / Zoner",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Phantom Slash", "Din's Fire", "Farore's Wind"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Slow",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Phantom", "Nair", "Fair"],
+      "out_of_shield_options": ["Nair", "Up-B"],
+      "kill_confirms": ["Lightning Kick", "Phantom -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Ganondorf", "Bowser"],
+      "weak_against": ["Fox", "Pikachu", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "20",
+    "name": "Dr. Mario",
+    "archetype": "Brawler",
+    "tier": "C+",
+    "difficulty": "Medium",
+    "secondary_required": true,
+    "signature_moves": ["Megavitamins", "Super Sheet", "Super Jump Punch"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Slow",
+      "air_speed": "Poor"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Pill", "Bair", "Dtilt"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Dthrow -> Up-B", "Fair spike"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Average",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Weak",
+      "out_of_shield": "Excellent",
+      "recovery": "Poor"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Smashville"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Little Mac"],
+      "weak_against": ["Sonic", "Samus", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "21",
+    "name": "Pichu",
+    "archetype": "Rushdown",
+    "tier": "A-",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Thunder Jolt", "Agility", "Thunder"],
+    "attributes": {
+      "weight_class": "Featherweight",
+      "run_speed": "Excellent",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Thunder Jolt", "Nair", "Bair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Nair loops -> Fsmash", "Uthrow -> Thunder"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Captain Falcon", "Bowser", "Ganondorf"],
+      "weak_against": ["Game & Watch", "Ness", "Olimar"]
+    }
+  },
+  {
+    "fighter_number": "22",
+    "name": "Falco",
+    "archetype": "Combo / Spacer",
+    "tier": "A",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Blaster", "Fire Bird", "Reflector"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Laser", "Fair", "Uptilt"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Uptilt -> Backair", "Downair dragdown -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Donkey Kong", "Bowser"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "23",
+    "name": "Marth",
+    "archetype": "Spacer",
+    "tier": "B",
+    "difficulty": "Hard",
+    "secondary_required": true,
+    "signature_moves": ["Shield Breaker", "Dancing Blade", "Dolphin Slash"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Nair", "Dtilt"],
+      "out_of_shield_options": ["Up-B"],
+      "kill_confirms": ["Tipper Fair -> Fsmash", "Dtilt tech chase"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Hollow Bastion"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Mario", "Luigi", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Sonic", "Diddy Kong"]
+    }
+  },
+  {
+    "fighter_number": "24",
+    "name": "Lucina",
+    "archetype": "Fundamental Swordfighter",
+    "tier": "A+",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Shield Breaker", "Dancing Blade", "Dolphin Slash"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Nair", "Dtilt"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Edgeguard Fair", "Bair at ledge"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Battlefield"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ryu", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Sonic", "Joker"]
+    }
+  },
+  {
+    "fighter_number": "25",
+    "name": "Young Link",
+    "archetype": "Projectile Rushdown",
+    "tier": "A",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Fire Arrow", "Boomerang", "Spin Attack"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fire Arrow", "Boomerang", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Arrow -> Fair", "Boomerang -> Upsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Cloud", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "26",
+    "name": "Ganondorf",
+    "archetype": "Heavyweight Punisher",
+    "tier": "D",
+    "difficulty": "Easy",
+    "secondary_required": true,
+    "signature_moves": ["Warlock Punch", "Flame Choke", "Wizard's Foot"],
+    "attributes": {
+      "weight_class": "Super Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Poor"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Dash Attack", "Flame Choke"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Flame Choke tech chase", "Raw Smash attacks"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Poor",
+      "escape_options": "Weak",
+      "out_of_shield": "Average",
+      "recovery": "Weak"
+    },
+    "stage_preferences": {
+      "best_stages": ["Smashville", "Town & City"],
+      "worst_stages": ["Final Destination", "Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Incineroar", "Dr. Mario"],
+      "weak_against": ["Pikachu", "Samus", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "27",
+    "name": "Mewtwo",
+    "archetype": "Zoner / Glass Cannon",
+    "tier": "A-",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Shadow Ball", "Disable", "Teleport"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Good",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Shadow Ball", "Fair", "Nair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Disable -> Fsmash", "Shadow Ball -> Fair"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Excellent",
+      "out_of_shield": "Average",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ryu", "Donkey Kong"],
+      "weak_against": ["Fox", "Pikachu", "Sheik"]
+    }
+  },
+  {
+    "fighter_number": "28",
+    "name": "Roy",
+    "archetype": "Rushdown Swordfighter",
+    "tier": "S-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Double-Edge Dance", "Blazer", "Flare Blade"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Excellent",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Jab", "Nair", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Jab -> Bair", "Jab -> Fsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Sephiroth", "Snake", "Bowser"],
+      "weak_against": ["Sonic", "Pikachu", "Samus"]
+    }
+  },
+  {
+    "fighter_number": "29",
+    "name": "Chrom",
+    "archetype": "Rushdown Swordfighter",
+    "tier": "A",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Soaring Slash", "Double-Edge Dance", "Flare Blade"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Excellent",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Nair", "Jab"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Jab -> Bair", "Uair strings -> Up-B"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Good",
+      "edge_guarding": "Average"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Average",
+      "out_of_shield": "Excellent",
+      "recovery": "Weak"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Town & City", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Snake"],
+      "weak_against": ["Pikachu", "Sonic", "Min Min"]
+    }
+  },
+  {
+    "fighter_number": "30",
+    "name": "Mr. Game & Watch",
+    "archetype": "Anti-Meta / Disjoint",
+    "tier": "S",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Chef", "Fire", "Bucket"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Chef", "Bair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Nair -> Upsmash", "Dsmash bury -> Fsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Excellent",
+      "out_of_shield": "Excellent",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Pikachu", "Peach", "Bowser"],
+      "weak_against": ["Cloud", "Shulk", "Lucina"]
+    }
+  },
+  {
+    "fighter_number": "31",
+    "name": "Meta Knight",
+    "archetype": "Combo / Edgeguard",
+    "tier": "A-",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Mach Tornado", "Dimensional Cape", "Shuttle Loop"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Fast",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Dash Attack", "Nair", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Dash attack -> Ladder combo", "Bridge combo"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Yoshi's Story"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Bowser", "Donkey Kong"],
+      "weak_against": ["Sonic", "Cloud", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "32",
+    "name": "Pit",
+    "archetype": "All-Rounder",
+    "tier": "A-",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Palutena Bow", "Electroshock Arm", "Power of Flight"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Fair", "Arrow"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Down-tilt -> Fair", "Dragdown Nair -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Little Mac", "Bowser"],
+      "weak_against": ["Pikachu", "Sonic", "Cloud"]
+    }
+  },
+  {
+    "fighter_number": "33",
+    "name": "Dark Pit",
+    "archetype": "All-Rounder",
+    "tier": "A-",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Silver Bow", "Electroshock Arm", "Power of Flight"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Fair", "Arrow"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Down-tilt -> Fair", "Nair dragdown -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Bowser", "Ganondorf"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "34",
+    "name": "Zero Suit Samus",
+    "archetype": "Hit & Run",
+    "tier": "A+",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Paralyzer", "Flip Jump", "Boost Kick"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Excellent",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Zair", "Nair", "Flip Jump"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Paralyzer -> Boost Kick", "Nair -> Flip Kick"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Pokémon Stadium 2"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Bowser", "Ryu"],
+      "weak_against": ["Pikachu", "Sonic", "Mr. Game & Watch"]
+    }
+  },
+  {
+    "fighter_number": "35",
+    "name": "Wario",
+    "archetype": "Bait & Punish",
+    "tier": "A",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Waft", "Bike", "Chomp"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Fast",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Fair", "Bike"],
+      "out_of_shield_options": ["Nair", "Up-air"],
+      "kill_confirms": ["Up-tilt -> Waft", "Nair -> Waft"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Battlefield"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Bowser", "Ryu"],
+      "weak_against": ["Pikachu", "Sonic", "Cloud"]
+    }
+  },
+  {
+    "fighter_number": "36",
+    "name": "Snake",
+    "archetype": "Trap / Zoner",
+    "tier": "S",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Grenade", "C4", "Nikita"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Grenade", "Dash Attack", "Up-tilt"],
+      "out_of_shield_options": ["Grenade", "Up-smash"],
+      "kill_confirms": ["Down-throw -> Tech chase", "Grenade trap -> Upsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Town & City"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ryu", "Bowser", "Ganondorf"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "37",
+    "name": "Ike",
+    "archetype": "Swordfighter",
+    "tier": "A-",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Eruption", "Quick Draw", "Aether"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Fair", "Up-air"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Nair -> Up-air", "Down-tilt -> Fair"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Average",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Sonic", "Samus"]
+    }
+  },
+  {
+    "fighter_number": "38",
+    "name": "Pokemon Trainer",
+    "archetype": "Stance / Versatile",
+    "tier": "S-",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Pokemon Change", "Razor Leaf", "Flare Blitz"],
+    "attributes": {
+      "weight_class": "Variable",
+      "run_speed": "Variable",
+      "air_speed": "Variable"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Razor Leaf", "Squirtle Fair", "Ivysaur Up-air"],
+      "out_of_shield_options": ["Charizard Up-B", "Nair"],
+      "kill_confirms": ["Ivysaur Dair", "Squirtle combos -> Charizard kill"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Snake", "Ryu"],
+      "weak_against": ["Sonic", "Pikachu", "Cloud"]
+    }
+  },
+  {
+    "fighter_number": "39",
+    "name": "Diddy Kong",
+    "archetype": "Item Rushdown",
+    "tier": "S",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Monkey Flip", "Banana Peel", "Rocketbarrel Boost"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Excellent",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Banana", "Fair", "Monkey Flip"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Banana -> Fsmash", "Down-tilt -> Upsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Marth", "Ryu", "Bowser"],
+      "weak_against": ["Sonic", "Pikachu", "Cloud"]
+    }
+  },
+  {
+    "fighter_number": "40",
+    "name": "Lucas",
+    "archetype": "Zoner / Trap",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["PK Freeze", "PK Fire", "PK Thunder"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Zair", "Fair", "PK Fire"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Down-air loops", "Back throw"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Yoshi's Story"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Bowser", "Ganondorf"],
+      "weak_against": ["Cloud", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "41",
+    "name": "Sonic",
+    "archetype": "Hit & Run",
+    "tier": "S+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Spin Dash", "Homing Attack", "Spring Jump"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Fastest",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Spin Dash", "Backair", "Homing Attack"],
+      "out_of_shield_options": ["Nair", "Up-air"],
+      "kill_confirms": ["Spin Dash -> Backair", "Edgeguard Fair"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Town & City"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Ryu", "Bowser"],
+      "weak_against": ["Mr. Game & Watch", "Pikachu", "Diddy Kong"]
+    }
+  },
+  {
+    "fighter_number": "42",
+    "name": "King Dedede",
+    "archetype": "Heavyweight / Zoner",
+    "tier": "C+",
+    "difficulty": "Easy",
+    "secondary_required": true,
+    "signature_moves": ["Gordo Throw", "Jet Hammer", "Super Dedede Jump"],
+    "attributes": {
+      "weight_class": "Super Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Poor"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Gordo", "Ftilt", "Nair"],
+      "out_of_shield_options": ["Nair", "Up-B"],
+      "kill_confirms": ["Jet Hammer reads", "Backair at ledge"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Weak",
+      "out_of_shield": "Average",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Smashville", "Town & City"],
+      "worst_stages": ["Final Destination", "Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Ganondorf", "Dr. Mario"],
+      "weak_against": ["Pikachu", "Samus", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "43",
+    "name": "Olimar",
+    "archetype": "Zoner / Resource",
+    "tier": "A",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Pikmin Throw", "Winged Pikmin", "Whistle"],
+    "attributes": {
+      "weight_class": "Featherweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Purple Pikmin", "Pikmin Toss", "Fair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Purple toss -> Smash", "Up-smash anti-air"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Pikachu", "Bowser", "Ganondorf"],
+      "weak_against": ["Cloud", "Fox", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "44",
+    "name": "Lucario",
+    "archetype": "Aura Comeback",
+    "tier": "B",
+    "difficulty": "Hard",
+    "secondary_required": true,
+    "signature_moves": ["Aura Sphere", "Extreme Speed", "Force Palm"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Aura Sphere", "Fair", "Bair"],
+      "out_of_shield_options": ["Up-smash", "Nair"],
+      "kill_confirms": ["Aura Backair", "Force Palm at high aura"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "45",
+    "name": "R.O.B.",
+    "archetype": "Zoner / Gyro Trap",
+    "tier": "S",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Gyro", "Laser", "Arm Rotor"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Gyro", "Nair", "Laser"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Gyro -> Upsmash", "Down-tilt -> Arm Rotor"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Final Destination"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Snake"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "46",
+    "name": "Toon Link",
+    "archetype": "Projectile Swordfighter",
+    "tier": "A-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Bomb", "Boomerang", "Hero's Bow"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Bomb", "Fair", "Boomerang"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Bomb -> Fair", "Boomerang -> Upair"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Cloud", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "47",
+    "name": "Wolf",
+    "archetype": "Fundamental Rushdown",
+    "tier": "S-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Blaster", "Wolf Flash", "Fire Wolf"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Blaster", "Fair", "Nair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Fair -> Dash attack", "Downsmash ledge trap"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Town & City"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Sephiroth", "Snake", "Bowser"],
+      "weak_against": ["Pikachu", "Sonic", "Diddy Kong"]
+    }
+  },
+  {
+    "fighter_number": "48",
+    "name": "Villager",
+    "archetype": "Trap / Zoner",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Lloid Rocket", "Tree", "Pocket"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Slingshot", "Lloid", "Fair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Bowling Ball ledge trap", "Tree setups"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Average",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Town & City"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Ganondorf", "Bowser"],
+      "weak_against": ["Fox", "Cloud", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "49",
+    "name": "Mega Man",
+    "archetype": "Zoner / Trap",
+    "tier": "A",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Metal Blade", "Leaf Shield", "Crash Bomber"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Pellets", "Metal Blade", "Backair"],
+      "out_of_shield_options": ["Up-tilt", "Nair"],
+      "kill_confirms": ["Metal Blade -> Fsmash", "Crash Bomb pressure"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Snake"],
+      "weak_against": ["Pikachu", "Fox", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "50",
+    "name": "Wii Fit Trainer",
+    "archetype": "Zoner / Bait & Punish",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Deep Breathing", "Header", "Sun Salutation"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Header", "Fair", "Sun Salutation"],
+      "out_of_shield_options": ["Nair", "Up-air"],
+      "kill_confirms": ["Deep Breathing smash", "Header edgeguard"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Average",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Little Mac"],
+      "weak_against": ["Fox", "Cloud", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "51",
+    "name": "Rosalina & Luma",
+    "archetype": "Puppet Fighter",
+    "tier": "A-",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Star Bits", "Launch Star", "Gravitational Pull"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Luma jab", "Fair", "Nair"],
+      "out_of_shield_options": ["Nair", "Up-air"],
+      "kill_confirms": ["Luma trap -> Smash", "Upair juggle"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Town & City"],
+      "worst_stages": ["Final Destination", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Samus", "Bowser"],
+      "weak_against": ["Cloud", "Fox", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "52",
+    "name": "Little Mac",
+    "archetype": "Grounded Brawler",
+    "tier": "D",
+    "difficulty": "Easy",
+    "secondary_required": true,
+    "signature_moves": ["KO Punch", "Jolt Haymaker", "Slip Counter"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Excellent",
+      "air_speed": "Poor"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Ftilt", "Jab", "Dash attack"],
+      "out_of_shield_options": ["Up-B", "Jab"],
+      "kill_confirms": ["KO Punch", "Down-tilt -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Weak",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Poor"
+    },
+    "disadvantage_state": {
+      "landing": "Poor",
+      "escape_options": "Weak",
+      "out_of_shield": "Average",
+      "recovery": "Poor"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Town & City"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Ganondorf", "Dr. Mario", "Incineroar"],
+      "weak_against": ["Pikachu", "Samus", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "53",
+    "name": "Greninja",
+    "archetype": "Hit & Run",
+    "tier": "A+",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Water Shuriken", "Shadow Sneak", "Hydro Pump"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Excellent",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Dash attack", "Fair", "Shuriken"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Dash attack -> Fair", "Down-tilt -> Upsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Excellent",
+      "escape_options": "Excellent",
+      "out_of_shield": "Average",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Town & City"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Bowser", "Ryu"],
+      "weak_against": ["Pikachu", "Sonic", "Mr. Game & Watch"]
+    }
+  },
+  {
+    "fighter_number": "54",
+    "name": "Mii Brawler",
+    "archetype": "Custom Rushdown",
+    "tier": "A-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Shot Put", "Suplex", "Feint Jump"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Nair", "Fair", "Shot Put"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Thrupper", "Down-tilt -> Up-B"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "R.O.B."],
+      "weak_against": ["Sonic", "Pikachu", "Cloud"]
+    }
+  },
+  {
+    "fighter_number": "55",
+    "name": "Mii Swordfighter",
+    "archetype": "Swordfighter / Zoner",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Chakram", "Gale Strike", "Skyward Slash Dash"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Tornado", "Fair", "Chakram"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Tornado -> Upair", "Chakram trap"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Average",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Final Destination"],
+      "worst_stages": ["Town & City", "Smashville"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Bowser", "Ganondorf"],
+      "weak_against": ["Cloud", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "56",
+    "name": "Mii Gunner",
+    "archetype": "Zoner",
+    "tier": "B",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Charge Blast", "Missile", "Grenade Launcher"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Laser", "Grenade", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Charge Shot setups", "Up-smash reads"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Fox", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "57",
+    "name": "Palutena",
+    "archetype": "Zoner / Control",
+    "tier": "S",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Autoreticle", "Explosive Flame", "Warp"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Nair", "Autoreticle"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Down-throw -> Fair", "Bair edgeguard"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Pokémon Stadium 2", "Battlefield"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "58",
+    "name": "Pac-Man",
+    "archetype": "Trap / Setup",
+    "tier": "A",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Hydrant", "Bonus Fruit", "Fire Hydrant"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Hydrant", "Fruit", "Fair"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Fruit setups", "Hydrant edge traps"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Final Destination"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Bowser", "Ryu"],
+      "weak_against": ["Fox", "Sonic", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "59",
+    "name": "Robin",
+    "archetype": "Magic Swordfighter",
+    "tier": "B+",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Arcfire", "Elthunder", "Nosferatu"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Slow",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Arcfire", "Levin Sword", "Elwind"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Arcfire -> Levin smash", "Up-air ladder"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Sonic", "Fox", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "60",
+    "name": "Shulk",
+    "archetype": "Stance / Spacer",
+    "tier": "S-",
+    "difficulty": "Very Hard",
+    "secondary_required": false,
+    "signature_moves": ["Monado Arts", "Back Slash", "Vision"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Good",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Monado Arts", "Fair", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Buster combos", "Smash Art reads"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Kalos Pokémon League"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Snake", "Ryu"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "61",
+    "name": "Bowser Jr.",
+    "archetype": "Trap / Vehicle Fighter",
+    "tier": "C+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Clown Kart Dash", "Mechakoopa", "Abandon Ship"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Mechakoopa", "Clown Kart", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Clown Kart ledge trap", "Down-smash reads"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Good",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Average",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Smashville", "Town & City"],
+      "worst_stages": ["Battlefield", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Ganondorf", "Dr. Mario"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "62",
+    "name": "Duck Hunt",
+    "archetype": "Trap / Zoner",
+    "tier": "B+",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Can", "Trick Shot", "Clay Shooting"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Can", "Fair", "Gunmen"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Can explosion setups", "Edgeguard traps"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Battlefield"],
+      "worst_stages": ["Town & City", "Smashville"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Ryu"],
+      "weak_against": ["Fox", "Sonic", "Pikachu"]
+    }
+  },
+  {
+    "fighter_number": "63",
+    "name": "Ryu",
+    "archetype": "Shoto Fighter",
+    "tier": "A",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Hadouken", "Shoryuken", "Tatsumaki Senpukyaku"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Slow"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Hadouken", "Crouch jab", "Focus Attack"],
+      "out_of_shield_options": ["Shoryuken", "Up-smash"],
+      "kill_confirms": ["Down tilt -> True Shoryuken", "Focus Attack -> Fsmash"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Weak"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Strong",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Small Battlefield"],
+      "worst_stages": ["Battlefield", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Ridley"],
+      "weak_against": ["Sonic", "Samus", "Min Min"]
+    }
+  },
+  {
+    "fighter_number": "64",
+    "name": "Ken",
+    "archetype": "Shoto Fighter / Rushdown",
+    "tier": "A+",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Shoryuken", "Tatsumaki", "Focus Attack"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Jab pressure", "Hadouken", "Fair"],
+      "out_of_shield_options": ["Shoryuken", "Nair"],
+      "kill_confirms": ["True Shoryu confirms", "Down tilt -> Shoryu"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Strong",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Incineroar"],
+      "weak_against": ["Sonic", "Pikachu", "Mr. Game & Watch"]
+    }
+  },
+  {
+    "fighter_number": "65",
+    "name": "Cloud",
+    "archetype": "Swordfighter / All-Rounder",
+    "tier": "S",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Limit Break", "Cross Slash", "Climhazzard"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Bair", "Fair", "Blade Beam"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Limit Cross Slash", "Bair edgeguard"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Excellent",
+      "recovery": "Weak"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Town & City"],
+      "worst_stages": ["Final Destination", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Pikachu", "Sonic", "Sheik"]
+    }
+  },
+  {
+    "fighter_number": "66",
+    "name": "Corrin",
+    "archetype": "Swordfighter / Zoner",
+    "tier": "B+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Dragon Fang Shot", "Draconic Ascent", "Counter Surge"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Pin", "Fair", "Dragon Fang Shot"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Pin -> Fsmash", "Up-air juggles"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Kalos Pokémon League"],
+      "worst_stages": ["Town & City", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "67",
+    "name": "Bayonetta",
+    "archetype": "Combo / Glass Cannon",
+    "tier": "B",
+    "difficulty": "Very Hard",
+    "secondary_required": false,
+    "signature_moves": ["Witch Time", "Witch Twist", "Bullet Arts"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Fast",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Bullet Arts", "ABK"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Witch Time -> Smash", "Combo strings -> Up-B kill"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Battlefield"],
+      "worst_stages": ["Final Destination", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ryu"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "68",
+    "name": "Inkling",
+    "archetype": "Rushdown / Resource",
+    "tier": "A+",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Splat Roller", "Splat Bomb", "Ink Shot"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Excellent",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Splat Bomb", "Fair", "Dash attack"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Roller -> Up smash", "Backair edgeguard"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Pokémon Stadium 2"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Incineroar"],
+      "weak_against": ["Sonic", "Pikachu", "Mr. Game & Watch"]
+    }
+  },
+  {
+    "fighter_number": "69",
+    "name": "Ridley",
+    "archetype": "Heavyweight Rushdown",
+    "tier": "B",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Plasma Breath", "Skewer", "Space Pirate Rush"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Fireballs", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Skewer reads", "Bair edgeguard"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Battlefield"],
+      "worst_stages": ["Final Destination", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "70",
+    "name": "Simon",
+    "archetype": "Zoner / Trap",
+    "tier": "B",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Holy Water", "Axe", "Cross"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Slow"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Cross", "Whip", "Holy Water"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Axe reads", "Whip ledgetrap"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Incineroar"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "71",
+    "name": "Richter",
+    "archetype": "Zoner / Trap",
+    "tier": "B",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Holy Water", "Axe", "Cross"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Slow"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Cross", "Whip", "Holy Water"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Axe reads", "Whip ledgetrap"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Ryu"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "72",
+    "name": "King K. Rool",
+    "archetype": "Heavyweight / Armor",
+    "tier": "C+",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Crown Toss", "Blunderbuss", "Gut Check"],
+    "attributes": {
+      "weight_class": "Super Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Slow"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Crown", "Blunderbuss", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Crown ledge trap", "Down-smash reads"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Average",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Smashville"],
+      "worst_stages": ["Battlefield", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Little Mac", "Ganondorf", "Dr. Mario"],
+      "weak_against": ["Sonic", "Pikachu", "Samus"]
+    }
+  },
+  {
+    "fighter_number": "73",
+    "name": "Isabelle",
+    "archetype": "Trap / Support Zoner",
+    "tier": "B-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Fishing Rod", "Lloid Trap", "Pocket"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fishing Rod", "Fair", "Lloid"],
+      "out_of_shield_options": ["Nair", "Up-smash"],
+      "kill_confirms": ["Rod setups", "Ledge traps"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Average",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Average",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Small Battlefield"],
+      "worst_stages": ["Battlefield", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Little Mac"],
+      "weak_against": ["Fox", "Cloud", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "74",
+    "name": "Incineroar",
+    "archetype": "Grappler",
+    "tier": "B-",
+    "difficulty": "Easy",
+    "secondary_required": false,
+    "signature_moves": ["Alolan Whip", "Revenge", "Darkest Lariat"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Poor"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Revenge", "Fair", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Alolan Whip", "Revenge boosted smash"]
+    },
+    "advantage_state": {
+      "juggling": "Weak",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Weak"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Smashville"],
+      "worst_stages": ["Battlefield", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Sonic", "Pikachu", "Samus"]
+    }
+  },
+  {
+    "fighter_number": "75",
+    "name": "Piranha Plant",
+    "archetype": "Trap / Zoner",
+    "tier": "B-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Ptooie", "Poison Breath", "Piranhacopter"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Ptooie", "Bair", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Ptooie edgeguard", "Down-smash ledge trap"]
+    },
+    "advantage_state": {
+      "juggling": "Average",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Smashville"],
+      "worst_stages": ["Battlefield", "Final Destination"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Fox", "Sonic"]
+    }
+  },
+  {
+    "fighter_number": "76",
+    "name": "Joker",
+    "archetype": "Rushdown / Stance",
+    "tier": "S",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Rebellion Gauge", "Eiha", "Arsene"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Fast",
+      "air_speed": "Excellent"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Gun", "Fair", "Eiha"],
+      "out_of_shield_options": ["Nair", "Up-B"],
+      "kill_confirms": ["Arsene Backair", "Dragdown combos -> Smash"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Battlefield"],
+      "worst_stages": ["Final Destination", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Snake"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "77",
+    "name": "Hero",
+    "archetype": "Random / Mage Swordfighter",
+    "tier": "A",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Command Selection", "Kaboom", "Zoom"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Frizz", "Sizz", "Sword normals"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Crit smash attacks", "Kaboom confirms"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Ganondorf", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "78",
+    "name": "Banjo & Kazooie",
+    "archetype": "Zoner / Trap",
+    "tier": "B",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Wonderwing", "Egg Firing", "Grenade Egg"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Eggs", "Fair", "Bair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Wonderwing reads", "Edgeguard bair"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Good",
+      "edge_guarding": "Strong"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Town & City"],
+      "worst_stages": ["Final Destination", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "79",
+    "name": "Terry",
+    "archetype": "Shoto / Brawler",
+    "tier": "A",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Power Wave", "Buster Wolf", "Burn Knuckle"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Good",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Power Wave", "Nair", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Down-tilt -> Buster Wolf", "Power Geyser confirms"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Strong",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ryu"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "80",
+    "name": "Byleth",
+    "archetype": "Swordfighter / Zoner",
+    "tier": "A-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Aymr", "Failnaught", "Areadbhar"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Bair", "Arrow"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Down-tilt -> Fsmash", "Bair ledgetrap"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Kalos Pokémon League"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "81",
+    "name": "Min Min",
+    "archetype": "Extreme Zoner",
+    "tier": "S-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Dragon ARM", "Megawatt ARM", "Ramram"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Slow",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Arm attacks", "Laser", "Tilt spacing"],
+      "out_of_shield_options": ["Up-B", "Grab"],
+      "kill_confirms": ["Ramram edgeguard", "Megawatt smash confirms"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Town & City"],
+      "worst_stages": ["Battlefield", "Small Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ryu"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "82",
+    "name": "Steve",
+    "archetype": "Resource / Trap",
+    "tier": "S+",
+    "difficulty": "Very Hard",
+    "secondary_required": false,
+    "signature_moves": ["Mining", "Crafting", "Anvil"],
+    "attributes": {
+      "weight_class": "Middleweight",
+      "run_speed": "Average",
+      "air_speed": "Average"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Blocks", "Minecart", "Fair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Minecart confirms", "Anvil edgeguard"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Average",
+      "escape_options": "Good",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Small Battlefield"],
+      "worst_stages": ["Final Destination", "Battlefield"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "83",
+    "name": "Sephiroth",
+    "archetype": "Zoner / Spacer",
+    "tier": "A",
+    "difficulty": "Hard",
+    "secondary_required": false,
+    "signature_moves": ["Shadow Flare", "Octaslash", "Flare"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair", "Bair", "Shadow Flare"],
+      "out_of_shield_options": ["Nair", "Up-B"],
+      "kill_confirms": ["Bair ledgetrap", "Dtilt -> Bair"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Good",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Weak",
+      "recovery": "Strong"
+    },
+    "stage_preferences": {
+      "best_stages": ["Town & City", "Final Destination"],
+      "worst_stages": ["Battlefield", "Yoshi's Story"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Bowser", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Fox", "Sheik"]
+    }
+  },
+  {
+    "fighter_number": "84",
+    "name": "Pyra / Mythra",
+    "archetype": "Stance Fighter",
+    "tier": "S",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Swap", "Photon Edge", "Prominence Revolt"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Very Fast",
+      "air_speed": "Good"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Mythra Fair", "Pyra Fair", "Blades"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Pyra smash attacks", "Mythra -> Pyra switch kills"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Excellent",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Excellent"
+    },
+    "disadvantage_state": {
+      "landing": "Good",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Good"
+    },
+    "stage_preferences": {
+      "best_stages": ["Small Battlefield", "Battlefield"],
+      "worst_stages": ["Final Destination", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ganondorf"],
+      "weak_against": ["Sonic", "Pikachu", "Fox"]
+    }
+  },
+  {
+    "fighter_number": "85",
+    "name": "Kazuya",
+    "archetype": "Grappler / Execution",
+    "tier": "A+",
+    "difficulty": "Very Hard",
+    "secondary_required": false,
+    "signature_moves": ["Electric Wind God Fist", "Devil Trigger", "Heaven's Door"],
+    "attributes": {
+      "weight_class": "Heavyweight",
+      "run_speed": "Slow",
+      "air_speed": "Slow"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["EWGF", "Laser", "Crouch dash"],
+      "out_of_shield_options": ["Up-B", "EWGF"],
+      "kill_confirms": ["Electric combos -> Smash", "Rage Drive confirms"]
+    },
+    "advantage_state": {
+      "juggling": "Strong",
+      "ledge_trapping": "Strong",
+      "tech_chasing": "Excellent",
+      "edge_guarding": "Good"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Average",
+      "out_of_shield": "Excellent",
+      "recovery": "Average"
+    },
+    "stage_preferences": {
+      "best_stages": ["Final Destination", "Small Battlefield"],
+      "worst_stages": ["Battlefield", "Town & City"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Bowser", "Donkey Kong", "Ryu"],
+      "weak_against": ["Sonic", "Pikachu", "Samus"]
+    }
+  },
+  {
+    "fighter_number": "86",
+    "name": "Sora",
+    "archetype": "Floaty Spacer",
+    "tier": "A-",
+    "difficulty": "Medium",
+    "secondary_required": false,
+    "signature_moves": ["Sonic Blade", "Firaga", "Thundaga"],
+    "attributes": {
+      "weight_class": "Lightweight",
+      "run_speed": "Slow",
+      "air_speed": "Slow"
+    },
+    "competitive_tools": {
+      "neutral_tools": ["Fair loops", "Firaga", "Nair"],
+      "out_of_shield_options": ["Up-B", "Nair"],
+      "kill_confirms": ["Up-air strings", "Edgeguard Firaga"]
+    },
+    "advantage_state": {
+      "juggling": "Excellent",
+      "ledge_trapping": "Good",
+      "tech_chasing": "Strong",
+      "edge_guarding": "Average"
+    },
+    "disadvantage_state": {
+      "landing": "Weak",
+      "escape_options": "Excellent",
+      "out_of_shield": "Good",
+      "recovery": "Excellent"
+    },
+    "stage_preferences": {
+      "best_stages": ["Battlefield", "Town & City"],
+      "worst_stages": ["Final Destination", "Kalos Pokémon League"]
+    },
+    "matchup_tendencies": {
+      "strong_against": ["Snake", "Bowser", "Donkey Kong"],
+      "weak_against": ["Pikachu", "Sonic", "Fox"]
+    }
+  }
+]
