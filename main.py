@@ -12,7 +12,7 @@ def load_characters(file_path: str = "data.json"):
 characters_list = load_characters()
 
 app = FastAPI(
-    title="Super Smash Bros API",
+    title="Super Smash Bros. Ultimate API",
     version="1.0.0",
     openapi_prefix="/api/v1"
 )
