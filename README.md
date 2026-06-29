@@ -57,12 +57,13 @@ Below are some of the available endpoints.
 
 | Method | Endpoint | Description |
 |:------:|----------|-------------|
-| GET | `/all_characters` | Returns every character |
 | GET | `/character/{id}` | Returns a character by ID |
-| GET | `/total_characters` | Returns the total number of characters |
+| GET | `/character/search/{name}` | Searches characters by name |
+| GET | `/characters/filter` | Filter by `tier`, `archetype` or `difficulty` |
 | GET | `/all_archetypes` | Lists every archetype |
 | GET | `/tier-list` | Returns characters grouped by tier |
-| GET | `/compare/{id1}/{id2}` | Compares two characters |
+| GET | `/compare/{id1}/{id2}` | Compares two characters and indicates the expected winner |
+| GET | `/matchup/{id}` | Returns a character’s matchup data (strong/weak against) |
 
 Example:
 
@@ -133,11 +134,11 @@ ReDoc:
 
 Planned improvements include:
 
-- [ ] Search characters by name
-- [ ] Filter endpoints
-- [ ] More matchup utilities
-- [ ] Additional statistics
-- [ ] API versioning
+- [ ] Better search & filters
+- [ ] Improved matchup system  
+- [ ] Statistics endpoints
+- [ ] Add tests
+- [ ] Database integration
 
 ---
 
