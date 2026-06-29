@@ -1,4 +1,4 @@
-# 🎮 Super Smash Bros. Ultimate Api
+# Super Smash Bros. Ultimate Api
 
 An unofficial REST API providing structured data for **Super Smash Bros. Ultimate** characters.
 
